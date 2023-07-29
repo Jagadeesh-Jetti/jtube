@@ -1,0 +1,51 @@
+.listing-main-container{
+    display: flex;
+   
+}
+
+.listing-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-header{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.listing-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 17rem;
+    /* height: 20rem; */
+}
+
+.listing-card-content{
+    display: flex;
+}
+
+.listing-image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.listing-title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: bold;
+}
+
+.listing-footer{
+    display: flex;
+    justify-content: space-around;
+}
