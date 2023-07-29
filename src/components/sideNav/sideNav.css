@@ -1,0 +1,16 @@
+.sidenav-main-container{
+    width: 15rem;
+}
+.sidenav-inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 4rem;
+    gap: 2rem;
+    
+}
+
+.snc-elements{
+    font-size: large;
+    font-weight: bold;
+}
