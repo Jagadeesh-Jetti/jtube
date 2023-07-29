@@ -10,10 +10,13 @@ export const SideNav = () => {
         <div className="snc-elements" onClick={() => navigate("/")}>
           Home
         </div>
-        <div className="snc-elements"> Explore </div>
+        <div className="snc-elements" onClick={() => navigate("/explore")}>
+          {" "}
+          Explore{" "}
+        </div>
         <div className="snc-elements"> Playlists </div>
         <div className="snc-elements" onClick={() => navigate("/watchlater")}>
-          watch later
+          Watch later
         </div>
       </div>
     </div>
