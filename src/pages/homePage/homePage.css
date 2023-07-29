@@ -1,0 +1,39 @@
+.homepage-main-container{
+    display: flex;
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-header{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.categories-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.category-thumbnail{
+    width: 17rem;
+    height: 10rem;
+}
+
+.category-title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem;
+}
