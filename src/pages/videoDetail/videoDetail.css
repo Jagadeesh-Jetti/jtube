@@ -1,0 +1,33 @@
+.videodetail-main-container {
+    display: flex;
+  }
+  
+  .videodetail-page {
+    width: 100%;
+    background-color: rgb(213, 188, 156);
+  }
+  
+  .videodetail-card {
+    display: flex;
+    margin: 1rem;
+  }
+  
+  .video {
+    width: 100%;
+    height: 25rem;
+  }
+  
+  .videodetail-title {
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  
+  .listing-main-content{
+    display: flex;
+  }
+
+  .listing-main-middle-content{
+    display: flex;
+    justify-content: space-around;
+  }
